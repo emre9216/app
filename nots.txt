@@ -1,0 +1,64 @@
+
+users (tamamlandı GET api/users (sayfalandı), GET api/users/single, POST api/users/add, PUT api/users/update, DELETE api/users/delete )
+
+-- All users (c,r,u,d)
+
+profile (tamamlandı GET api/profile, PUT api/profile/change-password, PUT api/profile/update)
+
+--single user
+--update user info
+--change password
+
+settings
+
+-- seo (tamamlandı. GET api/seo-settings PUT api/seo-settings/update)
+    ---title
+    ---desc
+    ---author
+    ---tags
+
+--header
+    ---header menu links (tamamlandı GET api/header-menu , GET api/header-menu/single, POST api/header-menu/add, PUT api/header-menu/update, DELETE api/header-menu/delete )
+    ---logo    (tamamlanmadı)
+    ---favicon  (tamamlanmadı)
+
+--footer
+    ---footer menu links (tamamlandı GET api/footer-menu , GET api/footer-menu/single, POST api/footer-menu/add, PUT api/footer-menu/update, DELETE api/footer-menu/delete )
+    ---contact
+    ---social icons
+    ---settings
+
+--loader
+    ---get loaders
+    ---add loader
+    ---select loader
+
+pages
+    ---page settings
+        ---pages(c,r,u,d)
+    ---home
+    ---about us
+    ---contact us
+
+gallery
+--images
+--gallery settings
+
+blog
+--blogs
+--categories
+--comments
+    ---all comments
+--blog settings
+
+email
+--smtp settings
+--newsletter
+    ---subscribers (c,r,u,d)
+    ---send mail
+--email templates
+
+
+yapılacaklar
+
+-auth, user ve profile kısmında response lardan user ın sadece email ve kullanıcı adı döndürülecek
